@@ -1,0 +1,45 @@
+/* "Pop out" button, in Todoist red. */
+.tdpo-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  background: #dc4c3e;
+  color: #ffffff;
+  font: 600 13px/1 system-ui, -apple-system, "Segoe UI", sans-serif;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.15s, transform 0.15s;
+}
+
+.tdpo-button:hover {
+  background: #c3392c;
+}
+
+.tdpo-button:focus-visible {
+  outline: 2px solid #dc4c3e;
+  outline-offset: 2px;
+}
+
+/* Next to Todoist's "Add sub-task" button */
+.tdpo-button.tdpo-inline {
+  vertical-align: middle;
+  margin-left: 8px;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+/* Fallback when "Add sub-task" can't be found */
+.tdpo-button.tdpo-floating {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2147483647;
+  padding: 8px 14px;
+  border-radius: 999px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.tdpo-button.tdpo-floating:hover {
+  transform: translateY(-1px);
+}

@@ -1,0 +1,14 @@
+# web-ext build/sign output
+web-ext-artifacts/
+*.xpi
+*.zip
+
+# Tooling
+node_modules/
+.amo-upload-uuid
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
