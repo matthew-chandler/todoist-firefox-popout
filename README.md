@@ -4,6 +4,14 @@ A Firefox extension (151+) that pops a task from Todoist web into a small always
 
 > Pop Out for Todoist is not created by, affiliated with, or supported by Todoist or Doist.
 
+The **Pop out** button appears next to **Add sub-task** on an open task:
+
+![A Todoist task with the red Pop out button next to Add sub-task](docs/images/pop-out-button.png)
+
+The task then floats in a small window that stays on top of other apps, here a shopping site:
+
+![The pop-out window showing the task "Clean the bathroom" above a shopping page](docs/images/pop-out-window.png)
+
 ## How it works
 
 - **Which task:** read from the Todoist URL (`/app/task/<name>-<id>`) when a task is open. No page scraping.
