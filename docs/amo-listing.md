@@ -17,7 +17,9 @@ Pop a task out of your Todoist tab into an always-on-top window, so you stay foc
 ## Description
 
 ```
-Keep the task you're working on in front of you. Pop Out for Todoist adds a "Pop out" button to Todoist on the web. Open a task, click the button (or press Shift+P), and the task appears in a small window that stays on top of everything else, even when you switch to other apps. When you're done, click the circle to complete it.
+Pop a Todoist task into a small always-on-top window that stays visible while you work in other apps, then check it off right there. Works with Todoist on the web and your Todoist API token. Not created by, affiliated with, or supported by Todoist.
+
+Open a task on app.todoist.com and click the "Pop out" button next to "Add sub-task" (or press Shift+P). The task floats above your other windows until you click the circle to complete it.
 
 Features
 - "Pop out" button next to "Add sub-task" on any open task, plus a Shift+P shortcut
