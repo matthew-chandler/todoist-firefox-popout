@@ -45,8 +45,6 @@ The extension is not on addons.mozilla.org yet. Until it is, install it from sou
 ## Things to know
 
 - The pop-out window belongs to the Todoist tab. Reloading or closing that tab closes it.
-- It only opens from a click or key press in the Todoist page (a browser rule for picture-in-picture). Firefox doesn't count Alt or Ctrl key combinations, which is why the shortcut is Shift+P.
-- Firefox always shows the address bar at the top of the pop-out window as an anti-spoofing measure; extensions can't hide it.
 - If the **Add sub-task** button can't be found (for example, Todoist changed its layout or you use another language), the Pop out button floats in the bottom-right corner instead.
 - Titles and descriptions wrap and reflow when you resize the window. The window opens sized to the first task, up to 480 px tall.
 - Desktop only: Firefox for Android doesn't support Document Picture-in-Picture.
