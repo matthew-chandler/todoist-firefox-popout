@@ -12,12 +12,6 @@ The task then floats in a small window that stays on top of other apps, here a s
 
 ![The pop-out window showing the task "Clean the bathroom" above a shopping page](docs/images/pop-out-window.png)
 
-## How it works
-
-- **Which task:** read from the Todoist URL (`/app/task/<name>-<id>`) when a task is open. No page scraping.
-- **Task details and completing:** Todoist API v1 (`GET /api/v1/tasks/{id}`, `POST /api/v1/tasks/{id}/close`), called from the background script with your API token.
-- **Always on top:** Firefox's Document Picture-in-Picture API.
-
 ## Install
 
 The extension is not on addons.mozilla.org yet. Until it is, install it from source:
