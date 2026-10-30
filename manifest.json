@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Pop Out for Todoist",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Pop a Todoist task into an always-on-top window and check it off from there. Not created by, affiliated with, or supported by Todoist.",
   "homepage_url": "https://github.com/matthew-chandler/todoist-firefox-popout",
   "browser_specific_settings": {
